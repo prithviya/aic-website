@@ -468,6 +468,10 @@ padding: 20px 15px 0;
   font-size: 22px;
   transition: 0.2s linear;
 }
+.btn:hover
+{
+  color: #fff;
+}
 /* slider */
 
 .custom-img {
