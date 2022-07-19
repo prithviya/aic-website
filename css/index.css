@@ -113,7 +113,7 @@
 }
 .content-title
 {
-    padding-top: 26%;
+    padding-top: 23%;
 }
 @media screen and (max-width: 600px)
 {
@@ -467,4 +467,29 @@ padding: 20px 15px 0;
   line-height: 30px;
   font-size: 22px;
   transition: 0.2s linear;
+}
+/* slider */
+
+.custom-img {
+  width: 200px;
+  height: 150px;
+  animation: scroll 40s linear infinite;
+}
+
+.slide-track {
+  /* width: 100%; */
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+}
+
+.slider {
+  margin-top: 70px;
+  background-color: whitesmoke;
+  padding: 4em 3em;
+}
+
+@keyframes scroll {
+  0% {transform: translateX(0);}
+  100% {transform: translatex(-600%)}
 }
