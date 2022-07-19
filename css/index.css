@@ -471,8 +471,8 @@ padding: 20px 15px 0;
 /* slider */
 
 .custom-img {
-  width: 200px;
-  height: 150px;
+  width: 150px;
+  height: 100px;
   animation: scroll 40s linear infinite;
 }
 
